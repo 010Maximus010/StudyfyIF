@@ -1,0 +1,60 @@
+/* Profile Box */
+    /* Tambahkan padding untuk konten utama agar tidak tertutupi oleh sidebar */
+    .main-content {
+        margin-top: 60px;
+        margin-left: 250px;
+        /* Sesuaikan margin sesuai lebar sidebar */
+        padding: 20px;
+    }
+    .profile-box {
+        background-color: darkslateblue;
+        width: 980px;
+        height: 465px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-right: auto;
+    }
+
+    /* Sidebar (menu kiri) */
+    .fixed-sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 250px;
+        height: 100%;
+        color: white;
+        padding: 20px;
+    }
+
+    /* foto profil (sidebar) */
+    .profil-side {
+        margin-left: 40px;
+        border-radius: 50%;
+    }
+
+    /* foto profil (box) */
+    .profil-box {
+        margin-left: 70px;
+        border-radius: 50%;
+    }
+
+
+    /* Collapsible menu */
+    .collapsible {
+        background: none;
+        width: 100%;
+        text-align: left;
+        padding: 15px;
+    }
+    .submenu {
+        display: none;
+        padding-left: 20px;
+    }
+
+    /* Navbar */
+    .profiltop{
+        position: absolute;
+        top: 10px;
+        right: 10px; 
+    }
